@@ -64,7 +64,9 @@ a{
  /* Mobile 400px */
 
 @media screen and (max-width:400px){
-    
+    body{
+        overflow-x: hidden;
+    }
     .container{
         width: 100%;
     }
